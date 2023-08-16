@@ -1,0 +1,420 @@
+    <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/result.css">
+    <script src="../js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="background"></div>
+    <header>
+        <span>Questions</span>
+    </header>
+    <nav>
+        <form method="get" action="./resultado.html" id ="myForm">
+            <div id="questao1">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>O que você está mais ansioso para fazer?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div class="area-imagens">
+                            <img src="../imagens/question1.jfif" alt="">
+                        </div>
+                        <div class="absolute">
+                            <div id="proximo1" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario1" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Mal posso esperar para explorar.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario1" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Mal posso esperar para começar as aulas.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario1" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Não estou ansioso.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario1" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Não vejo a hora de comer.</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao2" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Qual qualidade mais combina com você?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior2" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question2.jfif" alt="">
+                        </div>
+                        <div>
+                            <div id="proximo2" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario2" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Curiosidade.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario2" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Lealdade.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario2" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Ambição.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario2" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Coragem.</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao3" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Com qual animal você se identifica?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior3" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question3.jfif" alt="">
+                        </div>
+                        <div>
+                            <div id="proximo3" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario3" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Águia.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario3" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Cobra.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario3" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Texugo.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario3" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Leão.</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao4" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Como você derrotaria seus inimigos?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior4" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question4.jfif" alt="">
+                        </div>
+                        <div>
+                            <div id="proximo4" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario4" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Com coragem e sem hesitação.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario4" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Calcularia cada detalhe para garantir a vitória e aniquilar o inimigo.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario4" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Com trabalho em equipe.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario4" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Estudaria as fraquezas para ter um bom plano.</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao5" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Que características têm mais a ver com você?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior5" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question5.jfif" alt="">
+                        </div>
+                        <div>
+                            <div id="proximo5" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario5" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Amigo e conselheiro.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario5" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Extrovertido e criativo.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario5" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Inteligente e sagaz.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario5" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Persistente e ambicioso.</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao6" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                        <div class="numeracao"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Que defeito você não suporta em alguém?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior6" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question6.jfif" alt="">
+                        </div>
+                        <div>
+                            <div id="proximo6" class="arr right"><div></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario6" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Falta de ambição</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario6" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Ignorância.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario6" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Covardia</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario6" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Falta de empatia</span>
+                    </label>   
+                </div>
+            </div>
+            <div id="questao7" class="display-none">
+                <div class="slides">
+                    <div class="caixa-numeracao">
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao"></div>
+                        <div class="numeracao roxo"></div>
+                    </div>
+                    <div class="pergunta">
+                        <p>Para qual casa você gostaria de ir?</p>
+                    </div>
+                    <div class="caixa-imagem">
+                        <div>
+                            <div id="anterior7" class="arr left"><div></div></div>
+                        </div>
+                        <div class="area-imagens">
+                            <img src="../imagens/question7.jfif" alt="">
+                        </div>
+                        <div class="button-resultado">
+                            <button type="submit"><div id="enviar" class="arr right"><div></div></div></button>
+                        </div>
+                        <div id="warningPopup" class="popup">
+                            Responda todas as perguntas!
+                        </div>
+                    </div>
+                </div>
+                <div class="area-label">
+                    <label class="container">
+                        <input type="radio" name="questionario7" value="corvinal" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Corvinal.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario7" value="sonserina" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Sonserina.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario7" value="lufalufa" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Lufa-Lufa.</span>
+                    </label>   
+                    <label class="container">
+                        <input type="radio" name="questionario7" value="grifinoria" >
+                            <div class="custom-radio">
+                                <span></span>
+                            </div>
+                            <span>Grifinória.</span>
+                    </label>   
+                </div>
+            </div>
+        </form>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+}
+
+@font-face{
+    font-family: "Font-harry";
+    src: url("../fonte/HARRYP__.woff");
+}
+
+.background{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    z-index: -2;
+    background-image: url(../imagens/fundo.jfif);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color:rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgb(116, 84, 121);
+    border-radius: 0px 0px 15px 15px;
+    font-family: "Font-harry";
+    color: rgb(198, 184, 201);
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    margin-top: 5%;
+    margin-bottom: 20px;
+    width: 78%;
+    max-width: 400px;
+    border-radius: 15px;
+    border: 1px solid rgb(116, 84, 121);
+}
+
+.texto-chapeu{
+    border: 1px solid rgb(116, 84, 121);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.texto-chapeu span{
+    color: rgb(198, 184, 201);
+    font-size: 20px;
+}
+
+.chapeu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chapeu img{
+    max-width: 250px;
+}
+
+.chapeu span{
+    color: rgb(198, 184, 201);
+}
+
+/* Animation imagem */
+.shaking-image {
+    position: relative;
+    animation: shake 0.5s infinite;
+  }
+
+  @keyframes shake {
+    0%, 100% {
+      transform: translate(0, 0);
+    }
+    10%, 90% {
+      transform: translate(-5px, -5px);
+    }
+    10% {
+      transform: translate(5px, 5px);
+    }
+  }
+
+/*---------------------- RESPONSIVO ---------------------- */
+@media all and (min-width: 900px){
+   
+    header{
+        font-size: 60px;
+        height: 150px;
+    }
+
+}
